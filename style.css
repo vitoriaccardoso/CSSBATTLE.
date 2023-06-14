@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #62374E;
+}
+
+.q{
+    height: 150px;
+    width: 150px;
+    background-color: #FDC57B;
+    display: flex;
+    position: absolute;
+    margin: 30px;
+
+}
+
+.quadrado1{
+    left: 100px;
+    top: 100px;
+}
+.quadrado2{
+    right: 100px;
+    top: 100px;
+}
+.quadrado3{
+    left: 100px;
+    bottom: 100px;
+}
+.quadrado4{
+    bottom: 100px;
+    right: 100px;
+}
